@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
 
 function App() {
+  let [num, setNum] = useState(90);
+
+  function handleIncre() {
+    setNum((num = num + 1));
+  }
+
+  function handleDecre() {
+    setNum((num = num - 1));
+  }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <h1>{num}</h1>
+      <button disabled={num >= 100 ? true : false} onClick={handleIncre}>
+        +
+      </button>
+      <button onClick={handleDecre} disabled={num <= 85 ? true : false}>
+        -
+      </button>
+    </>
   );
 }
-
 export default App;
