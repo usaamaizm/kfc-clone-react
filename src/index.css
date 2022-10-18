@@ -5,9 +5,55 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  display: inline-flexbox;
+  align-items: center;
+  margin: 30px;
+  padding: 40px;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.Change {
+  border-width: 4px;
+  border-color: rgb(156, 23, 23);
+  color: white;
+  border-radius: 3px;
+  background-color: black;
+  block-size: 30px;
+}
+
+.Change:hover {
+  color: rgb(22, 1, 11);
+  background-color: aliceblue;
+  border-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  shape-margin: 20px;
+  shape-rendering: auto;
+  border-width: 2px;
+  border-color: blue;
+}
+
+.add-name {
+  color: rgb(22, 1, 11);
+  background-color: aliceblue;
+  border-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  shape-margin: 20px;
+  shape-rendering: auto;
+  border-width: 2px;
+  border-color: blue;
+}
+
+.add-name:hover {
+  border-width: 4px;
+  border-color: rgb(156, 23, 23);
+  color: white;
+  border-radius: 3px;
+  background-color: black;
+  block-size: 30px;
 }
