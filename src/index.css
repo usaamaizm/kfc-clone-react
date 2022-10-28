@@ -9,6 +9,7 @@ body {
   align-items: center;
   margin: 30px;
   padding: 40px;
+  background: rgb(18, 4, 18);
 }
 
 code {
@@ -41,7 +42,6 @@ code {
   color: rgb(22, 1, 11);
   background-color: aliceblue;
   border-color: white;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   text-align: center;
   shape-margin: 20px;
   shape-rendering: auto;
@@ -50,10 +50,37 @@ code {
 }
 
 .add-name:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-width: 4px;
-  border-color: rgb(156, 23, 23);
+  border-color: rgb(235, 223, 0);
   color: white;
   border-radius: 3px;
   background-color: black;
   block-size: 30px;
+}
+
+.bi-geo-fill {
+  color: #e4002b;
+}
+
+.text-loc {
+  color: aliceblue;
+  font-weight: 600;
+}
+
+.btn-cart-counter {
+  color: aliceblue;
+  border: 2px solid aliceblue;
+}
+
+.btn-delivery {
+  background: #48413e;
+  color: aliceblue;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.navbar .btn:hover {
+  background: #48413e;
+  color: aliceblue;
 }
