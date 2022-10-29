@@ -1,19 +1,22 @@
+import CategoryDetails from "pages/categoryDetails";
+import Detail from "pages/Detail";
+import Home from "pages/Home";
+import Login from "pages/Login";
 import React from "react";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
-import Main from "./components/Main";
-import { data } from "./data/data";
-import Card from "./components/Card";
-import CategoryCard from "./components/CategoryCard";
+import { Routes, Route } from "react-router-dom";
 
 const App = () => {
   return (
-    <>
-      <Header />
-      <CategoryCard />
-      <Main products={data.products} />
-      <Footer />
-    </>
+    <div className="container">
+      <Routes>
+        <Route path="/" element={<Home />}></Route>
+        <Route path="/login" element={<Login />}></Route>
+        <Route path="/product" element={<Detail />}></Route>
+        <Route path="/category" element={<CategoryDetails />}></Route>
+      </Routes>
+
+      {/* <Home  /> */}
+    </div>
   );
 };
 

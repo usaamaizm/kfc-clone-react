@@ -1,15 +1,16 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import logo from "../KFC-Logo-Red.png";
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
-    <header className="container mb-4">
+    <header className=" mb-4">
       <nav className="navbar navbar-expand-lg">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">
+          <Link className="navbar-brand" to="/">
             <img src={logo} alt="" />
-          </a>
+          </Link>
           <button
             className="navbar-toggler"
             type="button"
@@ -50,9 +51,9 @@ function Header() {
               </li>
 
               <li className="nav-item">
-                <a className="btn btn-danger" href="#">
+                <Link className="btn btn-danger" to="/login">
                   Register / Sign in
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

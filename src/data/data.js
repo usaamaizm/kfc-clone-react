@@ -8,7 +8,8 @@ export const data = {
       "price":540,
       "image":"images/1.png",
       "stock":21,
-      "category":"Everyday value"
+      "category":"Everyday value",
+      "slug": "everyday-value"
     },
     {
       "id":2,
@@ -17,16 +18,19 @@ export const data = {
       "price":440,
       "image":"images/2.png",
       "stock":21,
-      "category":"Everyday value"
+      "category":"Ala Carte & Combos",
+      "slug": "ala-carte-&-combos"
     },
     {
       "id":3,
       "title":"Krunch Burger + Drink",
-      "description":"1 Krunch burger + 1 regular drink",
+      "description":"2 pieces of Hot and Crispy Fried Chicken+ fries+ dinner roll+ signature Vietnamese Sauce",
       "price":220,
       "image":"images/3.png",
       "stock":21,
-      "category":"Signature Box"
+      "category":"Signature Box",
+      "slug": "signature-box"
+      
     },
     {
       "id":4,
@@ -35,16 +39,18 @@ export const data = {
       "price":290,
       "image":"images/4.png",
       "stock":21,
-      "category":"Signature value"
+      "category":"Signature value",
+      "slug": "signature-box"
     },
     {
       "id":5,
       "title":"Value Bucket",
-      "description":"Our pride and joy: hand-breaded and fried to perfection in house. 9 pcs of Colonel’s Signature Crispy Fried Chicken. It's finger lickin' good. Rs. 50 from Every Bucket Sold Goes to Mitao Bhook Foundation ",
+      "description":"Spiced, buttery rice with 6 pcs of Hot Shots topped with our signature Vietnamese sauce",
       "price":1530,
       "image":"images/5.png",
       "stock":21,
-      "category":"Everyday value"
+      "category":"Everyday value",
+      "slug": "everyday-value"
     },
     {
       "id":6,
@@ -53,7 +59,8 @@ export const data = {
       "price":540,
       "image":"images/6.png",
       "stock":21,
-      "category":"Everyday value"
+      "category":"Everyday value",
+      "slug": "everyday-value"
     },
     {
       "id":7,
@@ -62,7 +69,8 @@ export const data = {
       "price":540,
       "image":"images/7.png",
       "stock":21,
-      "category":"Sharing"
+      "category":"Sharing",
+      "slug": "sharing"
     },
     {
       "id":8,
@@ -71,11 +79,12 @@ export const data = {
       "price":540,
       "image":"images/8.jpg",
       "stock":21,
-      "category":"Sharing"
+      "category":"Sharing",
+      "slug": "sharing"
     },
   ],
   
-  "Categories": [
+  "categories": [
     {
       "id": 1,
       "title": "Everyday value",

@@ -6,9 +6,9 @@ const baseUrl = "http://localhost:3000";
 
 function Main({ products }) {
   return (
-    <main className="container">
+    <main>
       <div className="row">
-        {products.map((product) => {
+        {products.map((/** @type {{ id: React.Key; }} */ product) => {
           return (
             <div key={product.id} className="col-md-3">
               <Card product={product} />

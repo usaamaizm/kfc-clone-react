@@ -84,3 +84,31 @@ code {
   background: #48413e;
   color: aliceblue;
 }
+
+.login {
+  background: rgb(153, 43, 43);
+  color: aliceblue;
+  text-align: center;
+  font-weight: 600;
+  height: 40px;
+  font-size: 23px;
+}
+
+.details {
+  background: rgb(153, 43, 43);
+  color: aliceblue;
+  text-align: center;
+  font-weight: 600;
+  height: 40px;
+  font-size: 23px;
+}
+
+.categorydetails{
+  background: rgb(153, 43, 43);
+  color: aliceblue;
+  text-align: center;
+  font-weight: 600;
+  height: 40px;
+  font-size: 23px;
+
+}
