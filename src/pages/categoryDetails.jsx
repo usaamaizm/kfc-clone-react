@@ -8,7 +8,7 @@ function CategoryDetails() {
     <>
     <Header/>
     <CategoryCard categories={data.categories} />
-    <div className='categorydetails'> Detail of a Product - </div>
+    <div className='categorydetails'> Detail of a Category - </div>
     </>
   )
 }

@@ -9,7 +9,7 @@ export const data = {
       "image":"images/1.png",
       "stock":21,
       "category":"Everyday value",
-      "slug": "everyday-value"
+     
     },
     {
       "id":2,
@@ -19,7 +19,7 @@ export const data = {
       "image":"images/2.png",
       "stock":21,
       "category":"Ala Carte & Combos",
-      "slug": "ala-carte-&-combos"
+      
     },
     {
       "id":3,
@@ -29,7 +29,7 @@ export const data = {
       "image":"images/3.png",
       "stock":21,
       "category":"Signature Box",
-      "slug": "signature-box"
+     
       
     },
     {
@@ -40,7 +40,7 @@ export const data = {
       "image":"images/4.png",
       "stock":21,
       "category":"Signature value",
-      "slug": "signature-box"
+     
     },
     {
       "id":5,
@@ -50,7 +50,7 @@ export const data = {
       "image":"images/5.png",
       "stock":21,
       "category":"Everyday value",
-      "slug": "everyday-value"
+     
     },
     {
       "id":6,
@@ -60,7 +60,7 @@ export const data = {
       "image":"images/6.png",
       "stock":21,
       "category":"Everyday value",
-      "slug": "everyday-value"
+      
     },
     {
       "id":7,
@@ -70,7 +70,7 @@ export const data = {
       "image":"images/7.png",
       "stock":21,
       "category":"Sharing",
-      "slug": "sharing"
+      
     },
     {
       "id":8,
@@ -80,7 +80,7 @@ export const data = {
       "image":"images/8.jpg",
       "stock":21,
       "category":"Sharing",
-      "slug": "sharing"
+      
     },
   ],
   
@@ -90,18 +90,21 @@ export const data = {
       "title": "Everyday value",
       "description": "",
       "image": "images/Categories/cat1.png",
+
     },
     {
       "id": 2,
       "title": "Ala Carte & Combos",
       "description": "",
       "image": "images/Categories/cat2.png",
+    
     },
     {
       "id": 3,
       "title": "Signature Boxes",
       "description": "",
       "image": "images/Categories/cat3.png",
+    
     },
   
   {
@@ -109,18 +112,21 @@ export const data = {
     "title": "Sharing",
     "description": "",
     "image": "images/Categories/cat4.png",
+    
   },
   {
     "id": 5,
     "title": "Snacks & Beveragesg",
     "description": "",
     "image": "images/Categories/cat5.png",
+    
   },
   {
     "id": 6,
     "title": "Midnight* STARTS 12:00 AM",
     "description": "",
     "image": "images/Categories/cat6.png",
+    "slug": "midnight"
   },
   ]
 

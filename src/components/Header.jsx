@@ -41,13 +41,13 @@ function Header() {
               </li>
 
               <li className="nav-item">
-                <a
+                <Link
                   className="btn btn-cart-counter me-2"
                   aria-current="page"
-                  href="#"
+                  to="/countries"
                 >
-                  0
-                </a>
+                  Countires
+                </Link>
               </li>
 
               <li className="nav-item">
